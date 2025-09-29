@@ -1,4 +1,6 @@
 # EDGE-DETECTION
+# Developed By:Daniel C
+# Reg no:212223240023
 ## Aim:
 To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
 
