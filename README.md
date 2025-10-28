@@ -24,10 +24,9 @@ Using Sobel operator from cv2,detect the edges of the image.
 
 Using Laplacian operator from cv2,detect the edges of the image and Using Canny operator from cv2,detect the edges of the image.
 # Program:
-```
 Developed By:Daniel C
 Reg no:212223240023
-
+```
 from google.colab import files
 import cv2
 import numpy as np
@@ -35,10 +34,10 @@ import matplotlib.pyplot as plt
 import os
 uploaded = files.upload()
 filename = next(iter(uploaded))
-print("✅ Uploaded file:", filename)
+print("Uploaded file:", filename)
 image = cv2.imread(filename)
 if image is None:
-    raise ValueError(f"❌ Image not found. Check if the file name '{filename}' is correct.")
+    raise ValueError(f" Image not found. Check if the file name '{filename}' is correct.")
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 plt.figure(figsize=(10,10))
 
@@ -72,6 +71,10 @@ plt.axis('off')
 
 plt.tight_layout()
 plt.show()
+
+
+
+
 ```
 
 ## Output:
