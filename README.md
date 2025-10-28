@@ -25,6 +25,7 @@ Using Sobel operator from cv2,detect the edges of the image.
 Using Laplacian operator from cv2,detect the edges of the image and Using Canny operator from cv2,detect the edges of the image.
 # Program:
 Developed By:Daniel C
+
 Reg no:212223240023
 ```
 from google.colab import files
